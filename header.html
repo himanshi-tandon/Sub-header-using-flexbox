@@ -3,31 +3,44 @@
 <head>
   <link href="style.css"  rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 </head>
 <body>
 <div class="flex-container">
   <div class="left-container">
-<img src="C:\Users\v-hitand\Desktop\Sub Header\images\anytownusa_color.svg" width="145" height="43"/>
-<input type="search" placeholder="Search products or sellers"><img class="search-img" width="15" height="15" src="C:\Users\v-hitand\Desktop\Sub Header\images\search.jpg"/>
+        <button type="button" class="btn-mobile" aria-controls="NavDrawer">
+                <span class="icon icon-hamburger" aria-hidden="true"></span>
+                <span class="fallback-text">Shop</span>
+              </button>
+<img  class="logo" src="C:\Users\v-hitand\Desktop\Sub Header\images\anytownusa_color.svg" width="145" height="43"/>
+<input type="search" placeholder="Search products or sellers" class="input-search"><img class="search-img" width="15" height="15" src="C:\Users\v-hitand\Desktop\Sub Header\images\search.jpg"/>
   </div>
-  <div class="right-container">
-      <img style="width: 18px;vertical-align:sub;margin-right:6px;" src="C:\Users\v-hitand\Desktop\Sub Header\images\Buy.svg">
-      <span>Customer Log In</span>
-      <img style="width: 18px;vertical-align:sub;margin-right:6px;height:18px;margin-top:10px;margin-left:15px" src="C:\Users\v-hitand\Desktop\Sub Header\images\Seller_Icon_v2_40x.png">
-      <span> Seller Log In</span>
-      <img style="width: 18px;vertical-align:sub;margin-right:6px;height:18px;margin-top:10px;margin-left:15px" src="C:\Users\v-hitand\Desktop\Sub Header\images\Shop_Icon_v1_40x.png">
-      <span>Start Selling</span>
 
-     <div class="start-selling-block"></div>
+ <div class="right-container">
+      <div class="div-sellers-info">
+            <img style="width: 18px;vertical-align:sub;margin-right:6px;" src="C:\Users\v-hitand\Desktop\Sub Header\images\Buy.svg">
+            <span>Customer Log In</span>
+            <img style="width: 18px;vertical-align:sub;margin-right:6px;height:18px;margin-top:10px;margin-left:15px" src="C:\Users\v-hitand\Desktop\Sub Header\images\Seller_Icon_v2_40x.png">
+            <span> Seller Log In</span>
+            <img style="width: 18px;vertical-align:sub;margin-right:6px;height:18px;margin-top:10px;margin-left:15px" src="C:\Users\v-hitand\Desktop\Sub Header\images\Shop_Icon_v1_40x.png">
+            <span>Start Selling</span>
+            
+           
+      </div>
+      <div class="start-selling-block"></div>
+      <img class="login-user" style="width: 18px;vertical-align:sub;margin-right:6px;height:18px;margin-top:10px;margin-left:15px;" src="C:\Users\v-hitand\Desktop\Sub Header\images\user.svg">
      <img style="width: 18px;vertical-align:sub;margin-right:6px;height:18px;margin-top:10px;margin-left:15px" src="C:\Users\v-hitand\Desktop\Sub Header\images\wishlist.svg">
      <img style="width: 18px;vertical-align:sub;margin-right:6px;height:18px;margin-top:10px;margin-left:15px" src="C:\Users\v-hitand\Desktop\Sub Header\images\shopping_cart.svg">
      <span>0</span>
     </div>
 </div>
-
+<div>
+ <input type="search" placeholder="Search products or sellers" class="search-mobile"><img class="search-img" width="15" height="15" src="C:\Users\v-hitand\Desktop\Sub Header\images\search.jpg"/>
+</div>
 
 <div class="inner-container" style="background: #f4f4f4; padding: 11px 0;">
-<ul>
+ <ul>
   <li>
       Clothing
   </li>
@@ -54,14 +67,196 @@
   </li>
 
   <li>
-      BEAUTY
+      PETS
   </li>
 
   
-  
-  
+  </div>
 
 </ul>
 </div>
+
+<div class="sub-menu">
+  <div class="tri"></div>
+  <div class="div-item">
+
+    <div class="inner-div-item">
+      <div class="left-container-item"> 
+            <h2>Shop by category</h2>
+            <ul>
+             <li data-textcase="upper" data-index="1" data-count="458">
+                <a href="/collections/shop-all-womens-clothing" class="mobile-nav__link">SHOP ALL WOMEN'S CLOTHING</a>
+              </li>
+             
+              <li data-index="2" data-count="181">
+                <a href="/collections/clothing-tops-tees" class="mobile-nav__link">Tops &amp; Tees</a>
+              </li>
+                  <li data-index="3" data-count="23">
+                <a href="/collections/clothing-sweaters-cardigans" class="mobile-nav__link">Sweaters &amp; Cardigans</a>
+              </li>
+                
+              <li data-index="4" data-count="58">
+                <a href="/collections/clothing-ponchos-wraps-capes" class="mobile-nav__link">Ponchos, Wraps, &amp; Capes</a>
+              </li>
+                 <li data-index="5" data-count="56">
+                <a href="/collections/clothing-dresses" class="mobile-nav__link">Dresses</a>
+              </li>
+             <li data-index="6" data-count="22">
+                <a href="/collections/clothing-jeans-denim" class="mobile-nav__link">Jeans &amp; Denim</a>
+              </li>
+              <li data-index="7" data-count="5">
+                <a href="/collections/clothing-coats-jackets" class="mobile-nav__link">Coats &amp; Jackets</a>
+              </li>
+              <li data-index="8" data-count="18">
+                <a href="/collections/clothing-pants-shorts-skirts" class="mobile-nav__link">Pants, Shorts, &amp; Skirts</a>
+              </li>
+                <li data-index="9" data-count="49">
+                <a href="/collections/clothing-lingerie-sleepwear" class="mobile-nav__link">Lingerie &amp; Sleepwear</a>
+              </li>
+             <li data-index="10" data-count="23">
+                <a href="/collections/clothing-socks-tights-hosiery" class="mobile-nav__link">Socks, Tights, &amp; Hosiery</a>
+              </li>
+             </ul>
+            <ul>                            
+            <li data-index="11" data-count="9">
+                <a href="/collections/clothing-activewear" class="mobile-nav__link">Activewear</a>
+              </li>
+                 <li data-index="12" data-count="9">
+                <a href="/collections/clothing-formalwear" class="mobile-nav__link">Formalwear</a>
+              </li>
+               <li data-index="14" data-count="4">
+                <a href="/collections/clothing-loungewear" class="mobile-nav__link">Loungewear</a>
+              </li>
+              <li data-index="16" data-count="1">
+                <a href="/collections/clothing-swim" class="mobile-nav__link">Swim</a>
+              </li>
+                </ul>
+        
+      </div>
+
+
+      <div class="right-container-item">
+        <h2>Shop by collection</h2>
+        <ul>
+          <li class="mobile-nav__item"><a href="/collections/back-to-school-style" class="mobile-nav__link">Back To School Style</a></li>
+           
+                                      
+          <li class="mobile-nav__item"><a href="/collections/cool-college-essentials" class="mobile-nav__link">Cool College Essentials</a></li>
+           
+                                      
+          <li class="mobile-nav__item"><a href="/collections/the-fall-halloween-shop" class="mobile-nav__link">The Fall &amp; Halloween Shop</a></li>
+           
+                                      
+          <li class="mobile-nav__item"><a href="/collections/whats-new" class="mobile-nav__link">What's New</a></li>
+           
+                                      
+          <li class="mobile-nav__item"><a href="/collections/eco-friendly" class="mobile-nav__link">Eco-Friendly Collection</a></li>
+           
+                                      
+          <li class="mobile-nav__item"><a href="/collections/free-shipping" class="mobile-nav__link">FREE SHIPPING SHOP</a></li>
+           
+                                      
+          <li class="mobile-nav__item"><a href="/collections/on-sale-now" class="mobile-nav__link">ON SALE NOW!</a></li>
+          
+        </ul>
+    
+    </div>
+</div>
+</div>
+</div>
+
+
+<div  class="mobile-nav-bar" style="display: none;">
+    <span class="close"></span>
+       <ul class="mobile-nav">
+          
+          <li class="mobile-nav__item">
+            
+              <a href="/collections/clothing" class="mobile-nav__link" id="Label-clothing">Clothing</a>
+
+</li>
+              <li class="mobile-nav__item">
+            
+                    <a href="/collections/clothing" class="mobile-nav__link" id="Label-clothing">Pets</a>
+
+              </li>
+                    <li class="mobile-nav__item">
+            
+                            <a href="/collections/clothing" class="mobile-nav__link" id="Label-clothing">Jewelry</a>
+              </li>
+
+              <li class="mobile-nav__item">
+            
+                    <a href="/collections/clothing" class="mobile-nav__link" id="Label-clothing">Men</a>
+      </li>
+
+
+      <li class="mobile-nav__item">
+            
+            <a href="/collections/clothing" class="mobile-nav__link" id="Label-clothing">Kids</a>
+</li>
+
+
+<li class="mobile-nav__item">
+            
+        <a href="/collections/clothing" class="mobile-nav__link" id="Label-clothing">Home</a>
+</li>
+
+<li class="mobile-nav__item">
+            
+        <a href="/collections/clothing" class="mobile-nav__link" id="Label-clothing">  Stationery</a>
+</li>
+<li class="mobile-nav__item">
+            
+
+        <a href="/collections/clothing" class="mobile-nav__link" id="Label-clothing">  Stationery</a>
+</li>
+
+<li class="mobile-nav__item">
+            
+        <a href="/collections/clothing" class="mobile-nav__link" id="Label-clothing">Clothing</a>
+
+</li>
+        <li class="mobile-nav__item">
+      
+              <a href="/collections/clothing" class="mobile-nav__link" id="Label-clothing">Pets</a>
+
+        </li>
+              <li class="mobile-nav__item">
+      
+                      <a href="/collections/clothing" class="mobile-nav__link" id="Label-clothing">Jewelry</a>
+        </li>
+
+        <li class="mobile-nav__item">
+      
+              <a href="/collections/clothing" class="mobile-nav__link" id="Label-clothing">Men</a>
+</li>
+
+            </ul>
+  
+
+    
+    
+    </div>
+    
+
+
+<script>
+$(document).ready(function() {
+    $(".inner-container ul").mouseover(function(){
+     $(".sub-menu").fadeIn();
+ });
+ $(".inner-container ul").mouseleave(function(){
+      $(".sub-menu").fadeOut();
+  });
+
+$(".btn-mobile").click(function(){
+    $(".mobile-nav-bar").fadeIn();
+});
+$(".close").click(function(){
+    $(".mobile-nav-bar").fadeOut(); 
+})
+});
+</script>
 </body>
 </html>
